@@ -10,8 +10,8 @@ header{
 
     .logo{
         position: absolute;
-        top:50%; left: 15px;
-        @include translateY(-50%) ;
+        top:50%; left: 25px;
+        @include translateY(-10%) ;
     }
 
     nav,
@@ -23,8 +23,8 @@ header{
       nav{
 
         position: absolute;
-        top: 50%; right: 15px;
-        @include translateY(-50%) ;
+        top: 50%; right: 25px;
+        @include translateY(-10%) ;
     
 
         ul li{
@@ -41,7 +41,7 @@ header{
             color: $white;
          }
          
-    }
+       }
 
       }
     }
