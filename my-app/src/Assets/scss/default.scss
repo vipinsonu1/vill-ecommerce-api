@@ -61,13 +61,47 @@ header{
             font-size: 12px;
     }
     .container{
+        margin-top: 15px;
         display: flex;
         
     }
     .container > div {
         flex: 1; /*grow*/
       }
+
+      bottomline { 
+        display: block;
+        margin-top: 0.4em;
+        margin-bottom: .4em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+    } 
+    .copyright{
+        margin-bottom:4.5em;
+        font-size: 12px;
+    }
     
     
 }
 
+
+contact{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #444;
+    text-align: center;
+
+.containers{
+    margin-top: 15px;
+    display: flex;
+    
+}
+.containers > div {
+    flex: 1; /*grow*/
+  }
+}
