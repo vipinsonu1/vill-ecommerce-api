@@ -45,6 +45,12 @@ class Footer extends Component {
 
         </div>
       </div>
+      <bottomline/>
+      <div className="copyright">
+       
+        Copyright © 2017 acde Inc. All rights reserved.
+   
+      </div>
       </footer>
     
     );

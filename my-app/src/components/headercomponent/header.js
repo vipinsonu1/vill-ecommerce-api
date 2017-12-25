@@ -9,7 +9,7 @@ class Header extends Component {
     
      <header>
       <div className="logo">
-        Logo
+      <Link to="/">Logo</Link>
       </div>
    <nav>
 <ul>
