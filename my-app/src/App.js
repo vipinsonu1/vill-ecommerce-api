@@ -10,6 +10,8 @@ import Homepage from './components/pages/homePage';
 import './Assets/css/default.min.css'
 import homePage from './components/pages/homePage';
 import Products from './components/pages/products';
+import Contactpage from './components/pages/contact';
+import Helppage from './components/pages/help';
 class App extends Component {
   render() {
     return (
@@ -18,6 +20,9 @@ class App extends Component {
         <Header/>
 <Route exact path='/' component={Homepage} />
 <Route exact path='/Products' component={Products}  />
+<Route exact path='/contact' component={Contactpage}  />
+<Route exact path='/help' component={Helppage}  />
+
         <Footer/>
       </div>
       </Router>
