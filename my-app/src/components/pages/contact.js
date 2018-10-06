@@ -2,20 +2,47 @@ import React, { Component } from 'react';
 class Contactpage extends Component {
   render() {
     return (
-      <contact>
-    <div className="container-fluid">
-      <h1>contactpage here </h1>
-        <div className="containers">
+      <div>
+     <div className="container">
         <div>
-           hi
-        </div>
-        <div>
-           hello
-        </div>
-       </div>
+          <ul>
+          <h5>Account</h5>
+          <li>manage your id</li>
+          <li>abdb</li>
+          <li></li>
+          <li></li>
+          <li></li>
 
+          </ul>
+
+        </div>
+        <div>
+          <ul>
+          <h5>Example</h5>
+          <li>google</li>
+          <li>facebook</li>
+          <li>apple</li>
+          <li></li>
+
+          </ul>
+
+        </div>
+        <div>
+          <ul>
+          <h5>About</h5>
+          <li>Event</li>
+          <li>investors</li>
+          <li>Job Opportunities</li>
+          <li>Contact</li>
+          <li></li>
+
+          </ul>
+
+        </div>
       </div>
-        </contact>
+      <bottomline/>
+  
+      </div>
       
     );
   }
