@@ -10,7 +10,7 @@ class Header extends Component {
      <header>
       <div className="logo">
       <Link to="/">Logo</Link>
-      </div>
+      </div>  
    <nav>
 <ul>
 <li className='first'>
